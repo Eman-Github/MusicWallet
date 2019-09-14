@@ -1,0 +1,9 @@
+[Unit]
+Description= MusicWallet service
+
+[Service]
+ExecStart=/root/MusicWallet/musicwalletproject/sample-service.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
